@@ -1,15 +1,12 @@
-package iex;
+package restApi;
 
 import io.restassured.RestAssured;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.serenitybdd.rest.Ensure;
-import net.serenitybdd.rest.SerenityRest;
-import org.hamcrest.Matchers;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import java.util.HashMap;
 import java.util.List;
 
 import static net.serenitybdd.rest.SerenityRest.*;
